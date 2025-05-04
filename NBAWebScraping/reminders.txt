@@ -1,0 +1,1 @@
+- Change to PostgreSQL to allow for paralell processing. Right now, getting errors when the scripts edit the sqlite database

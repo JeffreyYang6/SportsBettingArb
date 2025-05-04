@@ -8,7 +8,7 @@ import CalculateOdds as CO
 # Load the .env file
 load_dotenv()
 
-# Base URL for API endpoints
+# Base URL for API endpoints, Issue is that these only provide American Bookmakers
 baseURL = "https://api.the-odds-api.com/"
 
 def get_sports_odds(sport, apiKey, regions, markets):
@@ -33,10 +33,5 @@ def get_sports_odds(sport, apiKey, regions, markets):
     
 data = get_sports_odds('basketball_nba', os.getenv("API_KEY"), 'us', 'h2h')
 
-with open("OddsAPI.json", "w+") as f:
+with open("OddsData.json", "w+") as f:
     f.write(json.dumps(data, indent=2))
-
-print(CO.compare_teams_odds("team1", 1.23, "team2", 4.3))
-
-# df = pd.DataFrame(data)
-# print(df.head())
