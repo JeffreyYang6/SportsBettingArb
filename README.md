@@ -1,6 +1,6 @@
 # Sports Betting Arbitrage Detection System
 
-This project automates the aggregation and analysis of live sports betting odds from multiple bookmakers to identify real-time arbitrage opportunities. Leveraging modern Python tools for web scraping, data processing, and database management, the system enables efficient, data-driven betting decisions.
+This project automates the aggregation and analysis of live sports betting odds from multiple bookmakers to identify real-time arbitrage opportunities. Leveraging Python tools for web scraping, data processing, and database management, the system enables efficient, data-driven arbitrage betting decisions.
 
 ---
 
