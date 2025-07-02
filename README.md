@@ -44,7 +44,7 @@ This project automates the aggregation and analysis of live sports betting odds 
 
 4. **Run the Program**
     ```
-    python main.py
+    python runProgram.py
     ```
 
 ---
